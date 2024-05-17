@@ -1,0 +1,95 @@
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting up background image */
+body {
+  background-image: url("/images/ppppp.jpg"); /* Replace 'background.jpg' with your image file */
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hover effect for navigation links */
+header nav ul li a:hover {
+  color: #ffd700; /* Change color on hover */
+}
+
+/* Main content styles */
+main {
+  padding: 50px;
+  color: white;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+.box-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box-list li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: calc(50% - 10px); /* Two columns with 10px gutter */
+  display: inline-block;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Text color for better visibility */
+}
+
+.threat-detection {
+  background-image: url("/images/ll222.jpg");
+}
+
+.security-training {
+  background-image: url("/images/ppppp.jpg");
+}
+
+.Peace of Mind {
+  background-image: url("/images/uuu.jpg");
+}
+
+/* Add more classes and background images as needed */
+
+@media (max-width: 768px) {
+  .box-list li {
+    width: calc(100% - 10px); /* Single column on smaller screens */
+  }
+}

@@ -1,0 +1,19 @@
+.box-list {
+  list-style: none;
+  padding: 0;
+}
+
+.box-list li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: calc(50% - 10px); /* Two columns with 10px gutter */
+  display: inline-block;
+  box-sizing: border-box;
+}
+.box-list li img {
+  max-width: 50px; /* Adjust image size as needed */
+  vertical-align: middle;
+  margin-right: 10px;
+}
